@@ -1,8 +1,11 @@
-// EncryptionDecrptionAES
+/*
+Encryption Decrption AES
 
-// https://stackoverflow.com/questions/13109588/base64-encoding-in-java
-// Had MANY errors / issues - but all have been fixed by Moose.
+Further information, source, issues with this algorithm / code:
+* See readme.md
 
+
+*/
 import java.security.Key;
 import javax.crypto.Cipher;
 import java.util.Base64;
@@ -12,8 +15,8 @@ import javax.crypto.spec.SecretKeySpec;
 public class EncryptionDecrptionAES {
 
     private static final String ALGO = "AES";
-  //private static final String KEY_STR = "S@1lingK3pp3L";
-    private static final String KEY_STR = "sAIlIngkEppElasa";  // Must be 16 bytes.
+  //private static final String KEY_STR = "s@IlIngkePPel";     // ERROR: Must be 16 bytes.
+    private static final String KEY_STR = "s@IlIngkePPelasa";  // OK, 16 bytes.
   //private static final String KEY_STR = "TheRooKnatEnirin";
 
     //private static final byte[] keyValue = new byte[]{'T', 'h', 'e', 'R', 'o', 'o', 'K', 'n', 'a', 't','E','n', 'i', 'r','i','n'};
