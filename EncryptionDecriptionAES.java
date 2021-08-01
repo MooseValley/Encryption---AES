@@ -1,4 +1,9 @@
 /*
+NOTE: For the latest code, see: 00__common_code/
+NOTE: For the latest code, see: 00__common_code/
+NOTE: For the latest code, see: 00__common_code/
+
+
 Encryption Decrption AES
 
 Further information, source, issues with this algorithm / code:
